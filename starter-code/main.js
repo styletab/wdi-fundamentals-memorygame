@@ -5,20 +5,26 @@ cardTwo = "queen";
 cardThree = "king";
 cardFour = "king";
 
-if (cardTwo === cardFour) {
 
-window.alert("Sorry, try again.");
-
-} else if (cardOne === cardThree) {
-
-	window.alert("Sorry, try again.");
-} 
-else if (cardOne === cardTwo) {
-
-	window.alert("You found a match!");
+/* if (cardOne === cardTwo) {
+	alert('You found a match!');	
+} else {
+  alert('Sorry, try again.');
 }
 
-else if (cardThree === cardFour) {
+*/
 
-	window.alert("You found a match!");
+var board = document.getElementsById('game-board');
+
+function createBoard() {
+
+for(var i = 0; i < card.length; i++) {
+
+	var cardElement = document.createELement('div');
+
+	cardElement.className = 'card';
+
+	board.appendChild(cardElement);
+}
+
 }
