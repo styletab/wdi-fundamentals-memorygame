@@ -6,9 +6,7 @@ h2 {color: #ffd700;}
 .board {
 	display: inline-block;
 	height: 50%;
-	width: 50%;
-    margin: 8%;
-}
+	width: 50%; }
 
 .card { 
 	height: 200px;
@@ -17,7 +15,7 @@ h2 {color: #ffd700;}
 	border: 1px solid #000000;
 	border-radius: 10px;
     float: left;
-    margin: 20px;
+    margin: 8%;
 	
  }
 
@@ -66,4 +64,9 @@ footer{
 
 h1, h2, p {
 	text-align: center;
+}
+
+img {
+	height: 200px;
+  width: 150px;
 }
