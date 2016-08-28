@@ -5,15 +5,19 @@ cardTwo = "queen";
 cardThree = "king";
 cardFour = "king";
 
-/* if (cardOne === cardTwo) {
+
+if (cardOne === cardTwo) {
 	alert('You found a match!');
-} else {
+}
+else if (cardThree === cardFour) {
+alert ('You found a match!');
+}
+else {
   alert('Sorry, try again.');
 }
 
-*/
 
-var board = document.getElementsById('game-board');
+/* var board = document.getElementsById('game-board');
 
 function createBoard() {
 
@@ -27,3 +31,4 @@ for(var i = 0; i < card.length; i++) {
 }
 
 }
+*/
